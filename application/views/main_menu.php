@@ -78,7 +78,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="form_hover bg-green">
+                    <div class="form_hover bg-green" onClick="location.href='mutation'">
                         <p style="text-align: center; margin-top: 20px;">
                             <i class="fa fa-share" style="font-size: 147px;"></i>
                         </p>
@@ -114,7 +114,7 @@
                 </div>
         
                 <div class="col-lg-6">
-                    <div class="form_hover bg-purple">
+                    <div class="form_hover bg-purple" onClick="location.href='searchtire'">
                         <p style="text-align: center; margin-top: 20px;">
                             <i class="fa fa-search" style="font-size: 147px;"></i>
                         </p>
@@ -149,7 +149,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="form_hover bg-red">
+                    <div class="form_hover bg-red" onClick="location.href='searchvehicle'">
                         <p style="text-align: center; margin-top: 20px;">
                             <i class="fa fa-car" style="font-size: 147px;"></i>
                         </p>
