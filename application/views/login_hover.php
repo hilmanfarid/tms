@@ -44,9 +44,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="form_hover " style="background-color: #cccccc;">
-                        <p style="text-align: center; margin-top: 20px;">
+                        <!--<p style="text-align: center; margin-top: 20px;">
                             <i class="fa fa-gears" style="font-size:187px;"></i>
-                        </p>
+                        </p>-->
                         <div class="header">
                             <div class="blur"></div>
                             <div class="header-text">
@@ -86,7 +86,7 @@
         height: 300px;
     }
 
-        .form_hover:hover .header {
+        /*.form_hover:hover .header {
             opacity: 1;
 			-webkit-transform:translate3d(0,-250px,0);
             transform: translateY(-250px);
@@ -94,7 +94,7 @@
             -moz-transform: translateY(-250px);
             -ms-transform: translateY(-250px);
             -o-transform: translateY(-250px);
-        }
+        }*/
 
         .form_hover img {
             z-index: 4;
@@ -102,7 +102,7 @@
 
         .form_hover .header {
             position: absolute;
-            top: 250px;
+            /*top: 250px;*/
             -webkit-transition: all 0.3s ease;
             -moz-transition: all 0.3s ease;
             -o-transition: all 0.3s ease;

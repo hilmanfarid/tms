@@ -105,8 +105,27 @@
 											<input type="text" class="form-control" id="form_date" name="tglwo" value="<?php echo $tglwo;?>" readonly>
 										</div>
 									</div>
-									
 									<div class="col-lg-3 col-md-6 col-sm-3 col-ss-6 col-xs-12">
+										<div class="col-xs-5 no-padding">
+											<div class="form-group">
+												<label for="kilometer">Kilometer</label>
+												<input type="text" class="form-control" id="kilometer" name="kilometer" value="<?php echo $kilometer;?>" readonly>
+											</div>
+										</div>
+										<div class="col-xs-1 no-padding">
+											<div class="form-group">
+												<label for="kilometer">/</label></br>
+												<label for="kilometer" class="control-label">/</label>
+											</div>
+										</div>
+										<div class="col-xs-6 no-padding">
+											<div class="form-group">
+												<label for="kilometer" style="white-space:nowrap;">Kilometer GPS</label>
+												<input type="text" class="form-control" id="kilometergps" name="kilometergps" value="<?php echo $kilometergps;?>" readonly>
+											</div>
+										</div>
+									</div>
+									<!--<div class="col-lg-3 col-md-6 col-sm-3 col-ss-6 col-xs-12">
 										<div class="form-group">
 											<label for="kilometer">Kilometer</label>
 											<input type="text" class="form-control" id="kilometer" name="kilometer" value="<?php echo $kilometer;?>" readonly>
@@ -118,7 +137,7 @@
 											<label for="kilometer">Kilometer GPS</label>
 											<input type="text" class="form-control" id="kilometergps" name="kilometergps" value="<?php echo $kilometergps;?>" readonly>
 										</div>
-									</div>
+									</div>-->
 									
 									<div class="col-lg-3 col-md-6 col-sm-3 col-ss-6 col-xs-12">
 										<div class="form-group">

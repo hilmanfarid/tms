@@ -3705,10 +3705,11 @@ input::-webkit-inner-spin-button {
 	-webkit-box-shadow: 0 0 4px 3px #307CFF;
 	box-shadow: 0 0 4px 3px #307CFF;
 }
-.form-horizontal .control-label{
-/* text-align:right; */
-text-align:left;
-background-color:#ffa;
+.control-label{
+	padding:6px 0;
+}
+.form-horizontal{
+	overflow:hidden;
 }
 /*select.form-control-editable {
 /*      border: 0 !important;        /*Removes border*/
