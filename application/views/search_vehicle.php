@@ -38,10 +38,11 @@
 									
 									-------------------------------------------------------------------------------------->
 									
-									<form action="search_vehicle" class="form-inline" onSubmit="return searchVehicle();">
+									<form action="search_vehicle" class="form-inline" onSubmit="searchVehicle();return false;">
 										<fieldset style="text-align:center;">
-										  <label class="control-label"><strong>VEHICLE :&nbsp&nbsp</strong></label>
-										  <input type="text" class="input-mini form-control" >
+										  <label style="display:inline;"class="control-label"><strong>VEHICLE :&nbsp&nbsp</strong></label>
+										  <input id="input-vehicle-search" style="display:inline;width:109px;"type="text" class="input-mini form-control" name="vehicle_search">
+										  <input style="display:inline;"type="submit" class="btn btn-warning" value="FIND">
 										</fieldset>
 									</form>
 									<div style="clear:both;"></div>
@@ -162,6 +163,34 @@
 											</div>
 										</div>
 									</div>
+									
+									<div style="clear:both;"></div>
+									<div class="table-responsive">
+										<table id="grid-tire-detail" class="table table-condensed table-hover table-striped table-bordered" data-selection="true" data-multi-select="true" data-row-select="true" data-keep-selection="true">
+											<thead>
+												<tr>
+													<th>No.</th>
+													<th>Tire ID</th>
+													<th>Position</th>
+													<th>Status</th>
+													<th>Pressure</th>
+													<th>TreadDepth</th>
+													<th>Sidewall</th>
+													<th>Brand</th>
+													<th>Pattern</th>
+													<th>Size</th>
+													<th>DOT</th>
+													<th>Type</th>
+													<th>Pemilik</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+
+												</tr>
+											</tbody>
+										</table>
+									</div>
 								</div>	
 							</div>
 						</div>
@@ -171,7 +200,41 @@
         </div><!-- ./wrapper -->
 		<script>
 			function searchVehicle(){
-				alert('This is function to search vehicle');
+				var param = $('#input-vehicle-search').val();
+				$('#grid-tire-detail tbody').html('');
+				$.ajax({
+					dataType: "json",
+					type: "POST",
+					url: '<?php echo base_url() ?>searchvehicle/getVehicle/'+param,
+					data: {},
+					success: function(data){
+						var i=1;
+						$.each(data, function( index, value ) {
+							$('#grid-tire-detail tbody').append('<tr>'+
+												'<td>'+i+'</td>'+
+												'<td>'+value.tireidset+'</td>'+
+												'<td>'+""+'</td>'+
+												'<td>'+index+'</td>'+
+												'<td>'+value['pressureset[]']+'</td>'+
+												'<td>'+value['tdset[]']+'|'+value['td2set[]']+'|'+value['td3set[]']+'|'+value['td4set[]']+'</td>'+
+												'<td>'+value['sidewall']+'</td>'+
+												'<td>'+value['brand']+'</td>'+
+												'<td>'+""+'</td>'+
+												'<td>'+value['size']+'</td>'+
+												'<td>'+value['dot']+'</td>'+
+												'<td>'+value['type']+'</td>'+
+												'<td>'+""+'</td>'+
+											'</tr>'
+							);		
+							i++;
+						});				
+					},
+					error: function(data,statusMsg,errString ){
+						$(':input:not(:button)', $('#tire-master')).val([]);
+						$('.overlay').hide();
+						$('.loading-img').hide();
+					}
+				});
 				return false;
 			}
 		</script>

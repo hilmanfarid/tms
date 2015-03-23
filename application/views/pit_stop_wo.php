@@ -157,7 +157,7 @@
 									<div class="col-lg-4 col-md-4 col-md-offset-0 col-xs-2 col-xs-offset-1 no-padding tire-pos">
 										<div class="small-box2">
 											<label for="nowo">L1</label>
-											<div class="img-con tire-not-exist">
+											<div class="img-con">
 												<img id="idx_L1" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
@@ -167,7 +167,7 @@
 											<label id="show-temp-modal" class="btn btn-warning btn-show-full" value="show_temp" name="show_temp" type="button">Show Temporary</label>
 											<label class="btn btn-warning btn-show-little" value="show_temp" name="show_temp" type="button">Show</br>Temp</label>
 											<label for="nowo">S1</label>
-											<div class="img-con tire-not-exist col-lg-8 col-lg-offset-2 col-md-8 col-xs-11 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-ss-10 no-padding">
+											<div class="img-con col-lg-8 col-lg-offset-2 col-md-8 col-xs-11 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-ss-10 no-padding">
 												<img id="idx_S1" src="<?php echo base_url('assets/img/tires.png') ?>" style="max-height:40px;"/>
 											</div>
 										</div>
@@ -175,7 +175,7 @@
 									<div class="col-lg-4 col-md-4 col-md-offset-0 col-xs-2 col-xs-offset-1 no-padding tire-pos">
 										<div class="small-box2">
 											<label for="nowo">R1</label>
-											<div class="img-con tire-not-exist">
+											<div class="img-con">
 												<img id="idx_R1" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
@@ -220,7 +220,7 @@
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
 											<label for="nowo">L20</label>
-											<div class="img-con tire-not-exist">
+											<div class="img-con <?php echo $tire_details['L20']['tireidset']==""?'tire-not-exist"':"a";?>">
 												<img id="idx_L20" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
@@ -228,7 +228,7 @@
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
 											<label for="nowo">L21</label>
-											<div class="img-con tire-not-exist">
+											<div class="img-con">
 												<img id="idx_L21" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
@@ -236,7 +236,7 @@
 									<div class="col-lg-4 col-md-4 col-xs-4 no-padding">
 										<div class="small-box2">
 											<label for="nowo">S2</label>
-											<div class="img-con tire-not-exist col-lg-8 col-lg-offset-2 col-md-8 col-xs-11 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-ss-10 no-padding">
+											<div class="img-con col-lg-8 col-lg-offset-2 col-md-8 col-xs-11 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-ss-10 no-padding">
 												<div>&nbsp </div>
 												<img src="<?php echo base_url('assets/img/tires.png') ?>" style="max-height:40px;margin-bottom:2%;"/>
 											</div>
@@ -245,7 +245,7 @@
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
 											<label for="nowo">R20</label>
-											<div class="img-con tire-not-exist">
+											<div class="img-con">
 												<img id="idx_R20" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
@@ -253,7 +253,7 @@
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
 											<label for="nowo">R21</label>
-											<div class="img-con tire-not-exist">
+											<div class="img-con">
 												<img id="idx_R21" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
@@ -262,8 +262,8 @@
 									<!----------------------------this is row for current/update field-------------------------------------------------------->
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2 form-group">
-											<input type="text" class="curr-tire" id="curr_L20" value="" readonly checked>
-											<input type="text" class="update-tire updt-tire" id="updt_L20" value="" readonly checked>
+											<input type="text" class="curr-tire" id="curr_L20" value="<?php echo $tire_details['L20']['tireidset']?>" readonly checked>
+											<input type="text" class="update-tire updt-tire" id="updt_L20" value="<?php echo $tire_details_update['L20']['tireidset']?>" readonly checked>
 										</div>
 									</div>
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
@@ -284,14 +284,14 @@
 									</div>
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2 form-group">
-											<input type="text" class="curr-tire" id="curr_R20" value="" readonly checked>
-											<input type="text" class="update-tire updt-tire" id="updt_R20" value="" readonly checked>
+											<input type="text" class="curr-tire" id="curr_R20" value="<?php echo $tire_details['R20']['tireidset']?>" readonly checked>
+											<input type="text" class="update-tire updt-tire" id="updt_R20" value="<?php echo $tire_details_update['R20']['tireidset']?>" readonly checked>
 										</div>
 									</div>
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2 form-group">
-											<input type="text" class="curr-tire" id="curr_R21" value="" readonly checked>
-											<input type="text" class="update-tire updt-tire" id="updt_R21" value="" readonly checked>
+											<input type="text" class="curr-tire" id="curr_R21" value="<?php echo $tire_details['R21']['tireidset']?>" readonly checked>
+											<input type="text" class="update-tire updt-tire" id="updt_R21" value="<?php echo $tire_details_update['R21']['tireidset']?>" readonly checked>
 										</div>
 									</div>
 									
@@ -301,7 +301,7 @@
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
 											<label for="nowo">L30</label>
-											<div class="img-con tire-not-exist">
+											<div class="img-con">
 												<img id="idx_L30" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
@@ -309,7 +309,7 @@
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
 											<label for="nowo">L31</label>
-											<div class="img-con tire-not-exist">
+											<div class="img-con">
 												<img id="idx_L31" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
@@ -317,7 +317,7 @@
 									<div class="col-lg-4 col-md-4 col-xs-4 no-padding">
 										<div class="small-box2">
 											<label for="nowo">S3</label>
-											<div class="img-con tire-not-exist col-lg-8 col-lg-offset-2 col-md-8 col-xs-11 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-ss-10 no-padding">
+											<div class="img-con col-lg-8 col-lg-offset-2 col-md-8 col-xs-11 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-ss-10 no-padding">
 												<div>&nbsp </div>
 												<img src="<?php echo base_url('assets/img/tires.png') ?>" style="max-height:40px;margin-bottom:2%;"/>
 											</div>
@@ -326,7 +326,7 @@
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
 											<label for="nowo">R30</label>
-											<div class="img-con tire-not-exist">
+											<div class="img-con">
 												<img id="idx_R30" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
@@ -334,7 +334,7 @@
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
 											<label for="nowo">R31</label>
-											<div class="img-con tire-not-exist">
+											<div class="img-con">
 												<img id="idx_R31" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
@@ -344,36 +344,304 @@
 									
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2 form-group">
-											<input type="text" class="curr-tire" id="curr_L30" value="" readonly checked>
-											<input type="text" class="update-tire updt-tire" id="updt_L30" value="" readonly checked>
+											<input type="text" class="curr-tire" id="curr_L30" value="<?php echo $tire_details['L30']['tireidset']?>" readonly checked>
+											<input type="text" class="update-tire updt-tire" id="updt_L30" value="<?php echo $tire_details_update['L30']['tireidset']?>" readonly checked>
 										</div>
 									</div>
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2 form-group">
-											<input type="text" class="curr-tire" id="curr_L31" value="" readonly checked>
-											<input type="text" class="update-tire updt-tire" id="updt_L31" value="" readonly checked>
+											<input type="text" class="curr-tire" id="curr_L31" value="<?php echo $tire_details['L31']['tireidset']?>" readonly checked>
+											<input type="text" class="update-tire updt-tire" id="updt_L31" value="<?php echo $tire_details_update['L31']['tireidset']?>" readonly checked>
 										</div>
 									</div>
 									<div class="col-lg-4 col-md-4 col-xs-4 no-padding">
 										<div class="small-box2 form-group">
 											<div class="col-lg-8 col-lg-offset-2 col-md-8 col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-ss-10 no-padding">
-												<input type="text" class="curr-tire" id="curr_S3" value="" readonly checked>
+												<input type="text" class="curr-tire" id="curr_S3" value="<?php echo $tire_details['S3']['tireidset']?>" readonly checked>
 											</div>
 											<div class="col-lg-8 col-lg-offset-2 col-md-8 col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-ss-10 no-padding">
-												<input type="text" class="update-tire updt-tire" id="updt_S3" value="" readonly checked>
+												<input type="text" class="update-tire updt-tire" id="updt_S3" value="<?php echo $tire_details_update['S3']['tireidset']?>" readonly checked>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2 form-group">
-											<input type="text" class="curr-tire" id="curr_R30" value="" readonly checked>
-											<input type="text" class="update-tire updt-tire" id="updt_R30" value="" readonly checked>
+											<input type="text" class="curr-tire" id="curr_R30" value="<?php echo $tire_details['R30']['tireidset']?>" readonly checked>
+											<input type="text" class="update-tire updt-tire" id="updt_R30" value="<?php echo $tire_details_update['R30']['tireidset']?>" readonly checked>
 										</div>
 									</div>
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2 form-group">
-											<input type="text" class="curr-tire" id="curr_R31" value="" readonly checked>
-											<input type="text" class="update-tire updt-tire" id="updt_R31" value="" readonly checked>
+											<input type="text" class="curr-tire" id="curr_R31" value="<?php echo $tire_details['R31']['tireidset']?>" readonly checked>
+											<input type="text" class="update-tire updt-tire" id="updt_R31" value="<?php echo $tire_details_update['R31']['tireidset']?>" readonly checked>
+										</div>
+									</div>
+									<div style="clear:both;"></div>
+									<!----------------------------this is row for tire image-------------------------------------------------------->
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2">
+											<label for="nowo">L40</label>
+											<div class="img-con">
+												<img id="idx_L40" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2">
+											<label for="nowo">L41</label>
+											<div class="img-con">
+												<img id="idx_L41" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-4 col-xs-4 no-padding">
+
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2">
+											<label for="nowo">R40</label>
+											<div class="img-con">
+												<img id="idx_R40" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2">
+											<label for="nowo">R41</label>
+											<div class="img-con">
+												<img id="idx_R41" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+										</div>
+									</div>
+									
+									<!----------------------------this is row for current/update field-------------------------------------------------------->
+									
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2 form-group">
+											<input type="text" class="curr-tire" id="curr_L40" value="<?php echo $tire_details['L40']['tireidset']?>" readonly checked>
+											<input type="text" class="update-tire updt-tire" id="updt_L40" value="<?php echo $tire_details_update['L40']['tireidset']?>" readonly checked>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2 form-group">
+											<input type="text" class="curr-tire" id="curr_L41" value="<?php echo $tire_details['L41']['tireidset']?>" readonly checked>
+											<input type="text" class="update-tire updt-tire" id="updt_L41" value="<?php echo $tire_details_update['L41']['tireidset']?>" readonly checked>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-4 col-xs-4 no-padding">
+										
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2 form-group">
+											<input type="text" class="curr-tire" id="curr_R40" value="<?php echo $tire_details['R40']['tireidset']?>" readonly checked>
+											<input type="text" class="update-tire updt-tire" id="updt_R40" value="<?php echo $tire_details_update['R40']['tireidset']?>" readonly checked>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2 form-group">
+											<input type="text" class="curr-tire" id="curr_R41" value="<?php echo $tire_details['R41']['tireidset']?>" readonly checked>
+											<input type="text" class="update-tire updt-tire" id="updt_R41" value="<?php echo $tire_details_update['R41']['tireidset']?>" readonly checked>
+										</div>
+									</div>
+									<div style="clear:both;"></div>
+									<!----------------------------this is row for tire image-------------------------------------------------------->
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2">
+											<label for="nowo">L50</label>
+											<div class="img-con">
+												<img id="idx_L50" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2">
+											<label for="nowo">L51</label>
+											<div class="img-con">
+												<img id="idx_L51" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-4 col-xs-4 no-padding">
+
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2">
+											<label for="nowo">R50</label>
+											<div class="img-con">
+												<img id="idx_R50" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2">
+											<label for="nowo">R51</label>
+											<div class="img-con">
+												<img id="idx_R51" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+										</div>
+									</div>
+									
+									<!----------------------------this is row for current/update field-------------------------------------------------------->
+									
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2 form-group">
+											<input type="text" class="curr-tire" id="curr_L50" value="<?php echo $tire_details['L50']['tireidset']?>" readonly checked>
+											<input type="text" class="update-tire updt-tire" id="updt_L50" value="<?php echo $tire_details_update['L50']['tireidset']?>" readonly checked>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2 form-group">
+											<input type="text" class="curr-tire" id="curr_L51" value="<?php echo $tire_details['L51']['tireidset']?>" readonly checked>
+											<input type="text" class="update-tire updt-tire" id="updt_L51" value="<?php echo $tire_details_update['L51']['tireidset']?>" readonly checked>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-4 col-xs-4 no-padding">
+										
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2 form-group">
+											<input type="text" class="curr-tire" id="curr_R50" value="<?php echo $tire_details['R50']['tireidset']?>" readonly checked>
+											<input type="text" class="update-tire updt-tire" id="updt_R50" value="<?php echo $tire_details_update['R50']['tireidset']?>" readonly checked>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2 form-group">
+											<input type="text" class="curr-tire" id="curr_R51" value="<?php echo $tire_details['R51']['tireidset']?>" readonly checked>
+											<input type="text" class="update-tire updt-tire" id="updt_R51" value="<?php echo $tire_details_update['R51']['tireidset']?>" readonly checked>
+										</div>
+									</div>
+									<div style="clear:both;"></div>
+									<!----------------------------this is row for tire image-------------------------------------------------------->
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2">
+											<label for="nowo">L60</label>
+											<div class="img-con">
+												<img id="idx_L60" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2">
+											<label for="nowo">L61</label>
+											<div class="img-con">
+												<img id="idx_L61" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-4 col-xs-4 no-padding">
+
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2">
+											<label for="nowo">R60</label>
+											<div class="img-con">
+												<img id="idx_R60" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2">
+											<label for="nowo">R61</label>
+											<div class="img-con">
+												<img id="idx_R61" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+										</div>
+									</div>
+									
+									<!----------------------------this is row for current/update field-------------------------------------------------------->
+									
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2 form-group">
+											<input type="text" class="curr-tire" id="curr_L60" value="<?php echo $tire_details['L60']['tireidset']?>" readonly checked>
+											<input type="text" class="update-tire updt-tire" id="updt_L60" value="<?php echo $tire_details_update['L60']['tireidset']?>" readonly checked>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2 form-group">
+											<input type="text" class="curr-tire" id="curr_L61" value="<?php echo $tire_details['L61']['tireidset']?>" readonly checked>
+											<input type="text" class="update-tire updt-tire" id="updt_L61" value="<?php echo $tire_details_update['L61']['tireidset']?>" readonly checked>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-4 col-xs-4 no-padding">
+										
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2 form-group">
+											<input type="text" class="curr-tire" id="curr_R60" value="<?php echo $tire_details['R60']['tireidset']?>" readonly checked>
+											<input type="text" class="update-tire updt-tire" id="updt_R60" value="<?php echo $tire_details_update['R60']['tireidset']?>" readonly checked>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2 form-group">
+											<input type="text" class="curr-tire" id="curr_R61" value="<?php echo $tire_details['R61']['tireidset']?>" readonly checked>
+											<input type="text" class="update-tire updt-tire" id="updt_R61" value="<?php echo $tire_details_update['R61']['tireidset']?>" readonly checked>
+										</div>
+									</div>
+									<div style="clear:both;"></div>
+									<!----------------------------this is row for tire image-------------------------------------------------------->
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2">
+											<label for="nowo">L70</label>
+											<div class="img-con">
+												<img id="idx_L70" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2">
+											<label for="nowo">L71</label>
+											<div class="img-con">
+												<img id="idx_L71" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-4 col-xs-4 no-padding">
+
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2">
+											<label for="nowo">R70</label>
+											<div class="img-con">
+												<img id="idx_R70" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2">
+											<label for="nowo">R71</label>
+											<div class="img-con">
+												<img id="idx_R71" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+										</div>
+									</div>
+									
+									<!----------------------------this is row for current/update field-------------------------------------------------------->
+									
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2 form-group">
+											<input type="text" class="curr-tire" id="curr_L70" value="<?php echo $tire_details['L70']['tireidset']?>" readonly checked>
+											<input type="text" class="update-tire updt-tire" id="updt_L70" value="<?php echo $tire_details_update['L70']['tireidset']?>" readonly checked>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2 form-group">
+											<input type="text" class="curr-tire" id="curr_L71" value="<?php echo $tire_details['L71']['tireidset']?>" readonly checked>
+											<input type="text" class="update-tire updt-tire" id="updt_L71" value="<?php echo $tire_details_update['L71']['tireidset']?>" readonly checked>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-4 col-xs-4 no-padding">
+										
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2 form-group">
+											<input type="text" class="curr-tire" id="curr_R70" value="<?php echo $tire_details['R70']['tireidset']?>" readonly checked>
+											<input type="text" class="update-tire updt-tire" id="updt_R70" value="<?php echo $tire_details_update['R70']['tireidset']?>" readonly checked>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2 form-group">
+											<input type="text" class="curr-tire" id="curr_R71" value="<?php echo $tire_details['R71']['tireidset']?>" readonly checked>
+											<input type="text" class="update-tire updt-tire" id="updt_R71" value="<?php echo $tire_details_update['R71']['tireidset']?>" readonly checked>
 										</div>
 									</div>
 								</div>	
@@ -557,7 +825,11 @@
 	<script>
 		<?php
 			foreach($tire_details as $key => $value){
-				echo "$('#idx_".$key."').parent().removeClass('tire-not-exist');";
+				if(empty($value['tireidset'])){
+					echo "$('#idx_".$key."').parent().addClass('tire-not-exist');";
+				}else{
+					echo "$('#idx_".$key."').parent().removeClass('tire-not-exist');";
+				}
 			}
 		?>
 		$('.overlay').show();
@@ -575,21 +847,24 @@
 			var data;
 			if(act=='CURR'){
 				data =tire_details[idx];
+				if(data==null || data==undefined || data==''){
+					data={};
+				}
 				data.tire_location_id = idx;
 				data.act_form = 'CURR';
 			}else if(act=='UPDT'){
 				data=tire_details_update[idx];
-				data.tire_location_id = idx;
-				data.act_form = 'UPDT';
 				if(data==null || data==undefined || data==''){
 					data={};
-					data.tire_location_id = idx;
-					data.act_form = 'UPDT';
 				}
+				data.tire_location_id = idx;
+				data.act_form = 'UPDT';
+				
 			}
 			setTimeout(function(){
 				if(data==null || data==undefined || data==''){
 					$(':input:not(:button)', $('#tire-desc-form')).val([]);
+					$('.overlay').hide();
 					$('.loading-img').hide();
 				}else{
 					$(':input:not(:button)', $('#tire-desc-form')).val([]);

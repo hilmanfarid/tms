@@ -86,7 +86,7 @@
 											<thead>
 												<tr>
 													<th data-filterable="true" data-column-id="tireidset" data-formatter="tireidset" data-type="numeric" data-align="right">TIRE ID</th>
-													<th data-column-id="location" data-formatter="location" data-sortable="false">WAREHOUSE</th>
+													<th class ='warehouse-select-header' data-column-id="location" data-formatter="location" data-sortable="false">WAREHOUSE</th>
 												</tr>
 											</thead>
 											<tbody>
@@ -153,6 +153,9 @@
 				params:{},
 				source: '<?php echo base_url();?>mutation/getGroup',
 				success: function(response, newValue) {
+					if(newValue==''){
+						return 'No Warehouse Selected';
+					}
 					//this is example using ajax request 
 					//you can add the parameters on params attribute e.g param : {tire_id : 1}
 				}
@@ -163,6 +166,17 @@
 	////////////////////////////////////even on radio box send to location /////////////////////////////////
 	
 	$('input').on('ifChecked', function(event){
+		if($(this).val()=='vendor'){
+			$('#grid-mutation').find('.warehouse-select').each(function() {
+				$(this).html('');
+			});
+			$('.warehouse-select-header').hide();
+			$('.warehouse-select').hide();
+			return;
+		}else{
+			$('.warehouse-select-header').show();
+			$('.warehouse-select').show();
+		}
 		$.ajax({
 			url: '<?php echo base_url();?>mutation/getToLocation',
 			data: {"location" : $(this).val()},

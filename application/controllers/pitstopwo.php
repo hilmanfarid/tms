@@ -10,8 +10,8 @@ class pitstopwo extends Main_Controller {
 			'kilometergps' => $this->input->post('kilometergps')? $this->input->post('kilometergps'):$this->input->get('kilometergps')
 		);
 		$data['tire_details'] = $_SESSION['tire_details'];
-		$tire_details = $this->getDetails();
-		$data['tire_details_update'] = $tire_details;
+		$tire_details_update = $this->getDetails();
+		$data['tire_details_update'] = $tire_details_update;
 		$this->load->view('include/header');
 		$this->load->view('pit_stop_wo',$data);
 		$this->load->view('include/footer');

@@ -8,6 +8,7 @@ class Mutation extends Main_Controller {
 	}
 	public function getGroup(){
 		echo '[
+				{"value": "", "text": "Select Location"},
 				{"value": 1, "text": "warehouse 1"},
 				{"value": 2, "text": "warehouse 2"},
 				{"value": 3, "text": "warehouse 3"}
