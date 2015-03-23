@@ -238,7 +238,7 @@
 											<label for="nowo">S2</label>
 											<div class="img-con col-lg-8 col-lg-offset-2 col-md-8 col-xs-11 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-ss-10 no-padding">
 												<div>&nbsp </div>
-												<img src="<?php echo base_url('assets/img/tires.png') ?>" style="max-height:40px;margin-bottom:2%;"/>
+												<img id="idx_S2" src="<?php echo base_url('assets/img/tires.png') ?>" style="max-height:40px;margin-bottom:2%;"/>
 											</div>
 										</div>
 									</div>
@@ -275,10 +275,10 @@
 									<div class="col-lg-4 col-md-4 col-xs-4 no-padding">
 										<div class="small-box2 form-group">
 											<div class="col-lg-8 col-lg-offset-2 col-md-8 col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-ss-10 no-padding">
-												<input type="text" class="curr-tire" id="curr_S2" value="" readonly checked>
+												<input type="text" class="curr-tire" id="curr_S2" value="<?php echo $tire_details_update['S2']['tireidset']?>" readonly checked>
 											</div>
 											<div class="col-lg-8 col-lg-offset-2 col-md-8 col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-ss-10 no-padding">
-												<input type="text" class="update-tire updt-tire" id="updt_S2" value="" readonly checked>
+												<input type="text" class="update-tire updt-tire" id="updt_S2" value="<?php echo $tire_details_update['S2']['tireidset']?>" readonly checked>
 											</div>
 										</div>
 									</div>
@@ -319,7 +319,7 @@
 											<label for="nowo">S3</label>
 											<div class="img-con col-lg-8 col-lg-offset-2 col-md-8 col-xs-11 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-ss-10 no-padding">
 												<div>&nbsp </div>
-												<img src="<?php echo base_url('assets/img/tires.png') ?>" style="max-height:40px;margin-bottom:2%;"/>
+												<img id="idx_S3" src="<?php echo base_url('assets/img/tires.png') ?>" style="max-height:40px;margin-bottom:2%;"/>
 											</div>
 										</div>
 									</div>
@@ -825,7 +825,7 @@
 	<script>
 		<?php
 			foreach($tire_details as $key => $value){
-				if(empty($value['tireidset'])){
+				if(empty($value['tireidset'])||$value['tireidset']=""){
 					echo "$('#idx_".$key."').parent().addClass('tire-not-exist');";
 				}else{
 					echo "$('#idx_".$key."').parent().removeClass('tire-not-exist');";
