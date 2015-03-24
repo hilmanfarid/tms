@@ -3711,6 +3711,9 @@ input::-webkit-inner-spin-button {
 .form-horizontal{
 	overflow:hidden;
 }
+#formModal .modal-dialog{
+	width:90% !important;
+}
 /*select.form-control-editable {
 /*      border: 0 !important;        /*Removes border*/
 /*      -webkit-appearance: none;        /*Removes default chrome and safari style*/
