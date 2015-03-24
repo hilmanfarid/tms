@@ -7,7 +7,8 @@ class pitstopwo extends Main_Controller {
 			'tglwo' => $this->input->post('tglwo') ? $this->input->post('tglwo'): $this->input->get('tglwo'),
 			'kilometer' => $this->input->post('kilometer') ? $this->input->post('kilometer'):$this->input->get('kilometer'),
 			'location' => $this->input->post('location')? $this->input->post('location'):$this->input->get('location'),
-			'kilometergps' => $this->input->post('kilometergps')? $this->input->post('kilometergps'):$this->input->get('kilometergps')
+			'kilometergps' => $this->input->post('kilometergps')? $this->input->post('kilometergps'):$this->input->get('kilometergps'),
+			'vehicle' => $this->input->post('vehicle')? $this->input->post('vehicle'):$this->input->get('vehicle')
 		);
 		$data['tire_details'] = $_SESSION['tire_details'];
 		$tire_details_update = $this->getDetails();
