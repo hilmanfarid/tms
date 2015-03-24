@@ -57,12 +57,7 @@
 										</div>
 									</div>
 									<div class="col-lg-4 col-md-4 col-xs-4 col-md-offset-0 no-padding col-xs-offset-1 tire-pos">
-										<div class="small-box2">
-											<label for="nowo">S1</label>
-											<div class="img-con tire-not-exist col-lg-8 col-lg-offset-2 col-md-8 col-xs-11 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-ss-10 no-padding">
-												<img id="idx_S1" src="<?php echo base_url('assets/img/tires.png') ?>" style="max-height:40px;"/>
-											</div>
-										</div>
+
 									</div>
 									<div class="col-lg-4 col-md-4 col-md-offset-0 col-xs-2 col-xs-offset-1 no-padding tire-pos">
 										<div class="small-box2">
@@ -74,22 +69,109 @@
 									</div>
 									<div style="clear:both;"></div>
 
-									<!-- NEXT FIVE TIRE L20 L21 ? R20 R21-->
+									<!-- NEXT FIVE TIRE L2O L2I ? R2O R2I-->
 									<div style="clear:both;"></div>
 									<!----------------------------this is row for tire image-------------------------------------------------------->
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
-											<label for="nowo">L20</label>
+											<label for="nowo">L2O</label>
 											<div class="img-con tire-not-exist">
-												<img id="idx_L20" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+												<img id="idx_L2O" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
-											<label for="nowo">L21</label>
+											<label for="nowo">L2I</label>
 											<div class="img-con tire-not-exist">
-												<img id="idx_L21" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+												<img id="idx_L2I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-4 col-xs-4 no-padding">
+
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2">
+											<label for="nowo">R2I</label>
+											<div class="img-con tire-not-exist">
+												<img id="idx_R2I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2">
+											<label for="nowo">R2O</label>
+											<div class="img-con tire-not-exist">
+												<img id="idx_R2O" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+										</div>
+									</div>
+									
+									<div style="clear:both;"></div>
+									
+									<!-- NEXT FIVE TIRE L3O L3I ? R3O R3I-->
+									<div style="clear:both;"></div>
+									<!----------------------------this is row for tire image-------------------------------------------------------->
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2">
+											<label for="nowo">L3O</label>
+											<div class="img-con tire-not-exist">
+												<img id="idx_L3O" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2">
+											<label for="nowo">L3I</label>
+											<div class="img-con tire-not-exist">
+												<img id="idx_L3I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-4 col-xs-4 no-padding">
+										<div class="small-box2">
+											<label for="nowo">S1</label>
+											<div class="img-con tire-not-exist col-lg-8 col-lg-offset-2 col-md-8 col-xs-11 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-ss-10 no-padding">
+												<div>&nbsp </div>
+												<img src="<?php echo base_url('assets/img/tires.png') ?>" style="max-height:40px;margin-bottom:2%;"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2">
+											<label for="nowo">R3I</label>
+											<div class="img-con tire-not-exist">
+												<img id="idx_R3I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2">
+											<label for="nowo">R3O</label>
+											<div class="img-con tire-not-exist">
+												<img id="idx_R3O" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+										</div>
+									</div>
+									
+									
+									<!-- NEXT FIVE TIRE L4O L4I ? R4O R4I-->
+									<div style="clear:both;"></div>
+									<!----------------------------this is row for tire image-------------------------------------------------------->
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2">
+											<label for="nowo">L4O</label>
+											<div class="img-con tire-not-exist">
+												<img id="idx_L4O" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+										<div class="small-box2">
+											<label for="nowo">L4I</label>
+											<div class="img-con tire-not-exist">
+												<img id="idx_L4I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
 									</div>
@@ -104,38 +186,37 @@
 									</div>
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
-											<label for="nowo">R20</label>
+											<label for="nowo">R4I</label>
 											<div class="img-con tire-not-exist">
-												<img id="idx_R20" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+												<img id="idx_R4I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
-											<label for="nowo">R21</label>
+											<label for="nowo">R4O</label>
 											<div class="img-con tire-not-exist">
-												<img id="idx_R21" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+												<img id="idx_R4O" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
 									</div>
-									<div style="clear:both;"></div>
 									
-									<!-- NEXT FIVE TIRE L30 L31 ? R30 R31-->
+									<!-- NEXT FIVE TIRE L5O L5I ? R5O R5I-->
 									<div style="clear:both;"></div>
 									<!----------------------------this is row for tire image-------------------------------------------------------->
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
-											<label for="nowo">L30</label>
+											<label for="nowo">L5O</label>
 											<div class="img-con tire-not-exist">
-												<img id="idx_L30" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+												<img id="idx_L5O" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
-											<label for="nowo">L31</label>
+											<label for="nowo">L5I</label>
 											<div class="img-con tire-not-exist">
-												<img id="idx_L31" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+												<img id="idx_L5I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
 									</div>
@@ -150,197 +231,98 @@
 									</div>
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
-											<label for="nowo">R30</label>
+											<label for="nowo">R5I</label>
 											<div class="img-con tire-not-exist">
-												<img id="idx_R30" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+												<img id="idx_R5I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
-											<label for="nowo">R31</label>
+											<label for="nowo">R5O</label>
 											<div class="img-con tire-not-exist">
-												<img id="idx_R31" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+												<img id="idx_R5O" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
 									</div>
 									
-									<!-- NEXT FIVE TIRE L40 L41 ? R40 R41-->
+									<!-- NEXT FIVE TIRE L6O L6I ? R6O R6I-->
 									<div style="clear:both;"></div>
 									<!----------------------------this is row for tire image-------------------------------------------------------->
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
-											<label for="nowo">L40</label>
+											<label for="nowo">L6O</label>
 											<div class="img-con tire-not-exist">
-												<img id="idx_L40" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+												<img id="idx_L6O" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
-											<label for="nowo">L41</label>
+											<label for="nowo">L6I</label>
 											<div class="img-con tire-not-exist">
-												<img id="idx_L41" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+												<img id="idx_L6I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-4 col-md-4 col-xs-4 no-padding">
+		
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
-											<label for="nowo">S4</label>
-											<div class="img-con tire-not-exist col-lg-8 col-lg-offset-2 col-md-8 col-xs-11 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-ss-10 no-padding">
-												<div>&nbsp </div>
-												<img src="<?php echo base_url('assets/img/tires.png') ?>" style="max-height:40px;margin-bottom:2%;"/>
+											<label for="nowo">R6I</label>
+											<div class="img-con tire-not-exist">
+												<img id="idx_R6I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
-											<label for="nowo">R40</label>
+											<label for="nowo">R6O</label>
 											<div class="img-con tire-not-exist">
-												<img id="idx_R40" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+												<img id="idx_R6O" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
-										<div class="small-box2">
-											<label for="nowo">R41</label>
-											<div class="img-con tire-not-exist">
-												<img id="idx_R41" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
-											</div>
-										</div>
-									</div>
-									<!-- NEXT FIVE TIRE L50 L51 ? R50 R51-->
+									<!-- NEXT FIVE TIRE L7O L7I ? R7O R7I-->
 									<div style="clear:both;"></div>
 									<!----------------------------this is row for tire image-------------------------------------------------------->
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
-											<label for="nowo">L50</label>
+											<label for="nowo">L7O</label>
 											<div class="img-con tire-not-exist">
-												<img id="idx_L50" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+												<img id="idx_L7O" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
-											<label for="nowo">L51</label>
+											<label for="nowo">L7I</label>
 											<div class="img-con tire-not-exist">
-												<img id="idx_L51" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+												<img id="idx_L7I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-4 col-md-4 col-xs-4 no-padding">
+
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
-											<label for="nowo">S5</label>
-											<div class="img-con tire-not-exist col-lg-8 col-lg-offset-2 col-md-8 col-xs-11 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-ss-10 no-padding">
-												<div>&nbsp </div>
-												<img src="<?php echo base_url('assets/img/tires.png') ?>" style="max-height:40px;margin-bottom:2%;"/>
+											<label for="nowo">R7I</label>
+											<div class="img-con tire-not-exist">
+												<img id="idx_R7I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
-											<label for="nowo">R50</label>
+											<label for="nowo">R7O</label>
 											<div class="img-con tire-not-exist">
-												<img id="idx_R50" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+												<img id="idx_R7O" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
-										<div class="small-box2">
-											<label for="nowo">R51</label>
-											<div class="img-con tire-not-exist">
-												<img id="idx_R51" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
-											</div>
-										</div>
-									</div>
-									<!-- NEXT FIVE TIRE L60 L61 ? R60 R61-->
-									<div style="clear:both;"></div>
-									<!----------------------------this is row for tire image-------------------------------------------------------->
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
-										<div class="small-box2">
-											<label for="nowo">L60</label>
-											<div class="img-con tire-not-exist">
-												<img id="idx_L60" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
-										<div class="small-box2">
-											<label for="nowo">L61</label>
-											<div class="img-con tire-not-exist">
-												<img id="idx_L61" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-4 col-md-4 col-xs-4 no-padding">
-										<div class="small-box2">
-											<label for="nowo">S6</label>
-											<div class="img-con tire-not-exist col-lg-8 col-lg-offset-2 col-md-8 col-xs-11 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-ss-10 no-padding">
-												<div>&nbsp </div>
-												<img src="<?php echo base_url('assets/img/tires.png') ?>" style="max-height:40px;margin-bottom:2%;"/>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
-										<div class="small-box2">
-											<label for="nowo">R60</label>
-											<div class="img-con tire-not-exist">
-												<img id="idx_R60" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
-										<div class="small-box2">
-											<label for="nowo">R61</label>
-											<div class="img-con tire-not-exist">
-												<img id="idx_R61" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
-											</div>
-										</div>
-									</div>
-									<!-- NEXT FIVE TIRE L30 L31 ? R30 R31-->
-									<div style="clear:both;"></div>
-									<!----------------------------this is row for tire image-------------------------------------------------------->
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
-										<div class="small-box2">
-											<label for="nowo">L70</label>
-											<div class="img-con tire-not-exist">
-												<img id="idx_L70" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
-										<div class="small-box2">
-											<label for="nowo">L71</label>
-											<div class="img-con tire-not-exist">
-												<img id="idx_L71" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-4 col-md-4 col-xs-4 no-padding">
-										<div class="small-box2">
-											<label for="nowo">S7</label>
-											<div class="img-con tire-not-exist col-lg-8 col-lg-offset-2 col-md-8 col-xs-11 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-ss-10 no-padding">
-												<div>&nbsp </div>
-												<img src="<?php echo base_url('assets/img/tires.png') ?>" style="max-height:40px;margin-bottom:2%;"/>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
-										<div class="small-box2">
-											<label for="nowo">R70</label>
-											<div class="img-con tire-not-exist">
-												<img id="idx_R70" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
-										<div class="small-box2">
-											<label for="nowo">R71</label>
-											<div class="img-con tire-not-exist">
-												<img id="idx_R71" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
-											</div>
-										</div>
-									</div>
+									
 									<div style="clear:both;"></div>
 									<div class="table-responsive">
 										<table id="grid-tire-detail" class="table table-condensed table-hover table-striped table-bordered" data-selection="true" data-multi-select="true" data-row-select="true" data-keep-selection="true">
