@@ -29,7 +29,8 @@
                 <section class="content">
                     <!-- Small boxes (Stat box) -->
                     <div class="row">
-                        <div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2">
+                        <!--<div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2">-->
+						<div>
 							<div class="box box-warning" style="overflow:auto;">
 								<div class="box-body">
 									
@@ -48,22 +49,75 @@
 									</br>
 									<div style="clear:both;"></div>
 									<!----------------------------this is row for tire image-------------------------------------------------------->
-									<div class="col-lg-4 col-md-4 col-md-offset-0 col-xs-2 col-xs-offset-1 no-padding tire-pos">
+									<div class="col-lg-2 col-md-2 col-md-offset-1 col-xs-2 col-xs-offset-1 no-padding tire-pos tire-box-top" >
 										<div class="small-box2">
 											<label for="nowo">L1</label>
-											<div class="img-con tire-not-exist">
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
 												<img id="idx_L1" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+											</div>
+											
 										</div>
 									</div>
-									<div class="col-lg-4 col-md-4 col-xs-4 col-md-offset-0 no-padding col-xs-offset-1 tire-pos">
+									<div class="col-lg-4 col-md-4 col-xs-4 col-md-offset-0 no-padding tire-pos">
 
 									</div>
-									<div class="col-lg-4 col-md-4 col-md-offset-0 col-xs-2 col-xs-offset-1 no-padding tire-pos">
+									<div class="col-lg-2 col-md-2 col-lg-offset-2 col-xs-2 col-xs-offset-2 no-padding tire-pos tire-box-top" >
 										<div class="small-box2">
 											<label for="nowo">R1</label>
-											<div class="img-con tire-not-exist">
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
 												<img id="idx_R1" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -72,38 +126,142 @@
 									<!-- NEXT FIVE TIRE L2O L2I ? R2O R2I-->
 									<div style="clear:both;"></div>
 									<!----------------------------this is row for tire image-------------------------------------------------------->
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos tire-box-middle-left">
 										<div class="small-box2">
 											<label for="nowo">L2O</label>
-											<div class="img-con tire-not-exist">
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
 												<img id="idx_L2O" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos tire-box-middle-right">
 										<div class="small-box2">
 											<label for="nowo">L2I</label>
-											<div class="img-con tire-not-exist">
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
 												<img id="idx_L2I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-4 col-md-4 col-xs-4 no-padding">
 
 									</div>
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos tire-box-middle-left">
 										<div class="small-box2">
 											<label for="nowo">R2I</label>
-											<div class="img-con tire-not-exist">
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
 												<img id="idx_R2I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos tire-box-middle-right">
 										<div class="small-box2">
 											<label for="nowo">R2O</label>
-											<div class="img-con tire-not-exist">
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
 												<img id="idx_R2O" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -113,44 +271,175 @@
 									<!-- NEXT FIVE TIRE L3O L3I ? R3O R3I-->
 									<div style="clear:both;"></div>
 									<!----------------------------this is row for tire image-------------------------------------------------------->
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos tire-box-middle-left">
 										<div class="small-box2">
 											<label for="nowo">L3O</label>
-											<div class="img-con tire-not-exist">
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
 												<img id="idx_L3O" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
-										</div>
-									</div>
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
-										<div class="small-box2">
-											<label for="nowo">L3I</label>
-											<div class="img-con tire-not-exist">
-												<img id="idx_L3I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-4 col-md-4 col-xs-4 no-padding">
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos tire-box-middle-right">
+										<div class="small-box2">
+											<label for="nowo">L3I</label>
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
+												<img id="idx_L3I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-4 col-xs-4 no-padding tire-box-center">
+										<!--<div class="small-box2 col-xs-8 col-xs-offset-2 tire-box-center">-->
 										<div class="small-box2">
 											<label for="nowo">S1</label>
-											<div class="img-con tire-not-exist col-lg-8 col-lg-offset-2 col-md-8 col-xs-11 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-ss-10 no-padding">
+											<div class="col-xs-12 col-lg-3 col-sm-3 img-con tire-not-exist no-padding" style="margin-top:10%;">
 												<div>&nbsp </div>
 												<img src="<?php echo base_url('assets/img/tires.png') ?>" style="max-height:40px;margin-bottom:2%;"/>
 											</div>
-										</div>
-									</div>
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
-										<div class="small-box2">
-											<label for="nowo">R3I</label>
-											<div class="img-con tire-not-exist">
-												<img id="idx_R3I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											<div class="col-xs-12 col-lg-9 col-sm-9 no-padding" style="padding-left:4px;">
+												<div class="col-ss-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-ss-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-ss-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-ss-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-ss-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-ss-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-ss-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-ss-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos tire-box-middle-left">
+										<div class="small-box2">
+											<label for="nowo">R3I</label>
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
+												<img id="idx_R3I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos tire-box-middle-right">
 										<div class="small-box2">
 											<label for="nowo">R3O</label>
-											<div class="img-con tire-not-exist">
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
 												<img id="idx_R3O" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -159,44 +448,175 @@
 									<!-- NEXT FIVE TIRE L4O L4I ? R4O R4I-->
 									<div style="clear:both;"></div>
 									<!----------------------------this is row for tire image-------------------------------------------------------->
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos tire-box-middle-left">
 										<div class="small-box2">
 											<label for="nowo">L4O</label>
-											<div class="img-con tire-not-exist">
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
 												<img id="idx_L4O" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
-										</div>
-									</div>
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
-										<div class="small-box2">
-											<label for="nowo">L4I</label>
-											<div class="img-con tire-not-exist">
-												<img id="idx_L4I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-4 col-md-4 col-xs-4 no-padding">
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos tire-box-middle-right">
+										<div class="small-box2">
+											<label for="nowo">L4I</label>
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
+												<img id="idx_L4I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-4 col-xs-4 no-padding tire-box-center">
+										<!--<div class="small-box2 col-xs-8 col-xs-offset-2 tire-box-center">-->
 										<div class="small-box2">
 											<label for="nowo">S2</label>
-											<div class="img-con tire-not-exist col-lg-8 col-lg-offset-2 col-md-8 col-xs-11 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-ss-10 no-padding">
+											<div class="col-xs-12 col-lg-3 col-sm-3 img-con tire-not-exist no-padding" style="margin-top:10%;">
 												<div>&nbsp </div>
 												<img src="<?php echo base_url('assets/img/tires.png') ?>" style="max-height:40px;margin-bottom:2%;"/>
 											</div>
-										</div>
-									</div>
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
-										<div class="small-box2">
-											<label for="nowo">R4I</label>
-											<div class="img-con tire-not-exist">
-												<img id="idx_R4I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											<div class="col-xs-12 col-lg-9 col-sm-9 no-padding" style="padding-left:4px;">
+												<div class="col-ss-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-ss-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-ss-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-ss-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-ss-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-ss-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-ss-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-ss-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos tire-box-middle-left">
+										<div class="small-box2">
+											<label for="nowo">R4I</label>
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
+												<img id="idx_R4I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos tire-box-middle-right">
 										<div class="small-box2">
 											<label for="nowo">R4O</label>
-											<div class="img-con tire-not-exist">
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
 												<img id="idx_R4O" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -204,44 +624,175 @@
 									<!-- NEXT FIVE TIRE L5O L5I ? R5O R5I-->
 									<div style="clear:both;"></div>
 									<!----------------------------this is row for tire image-------------------------------------------------------->
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos tire-box-middle-left">
 										<div class="small-box2">
 											<label for="nowo">L5O</label>
-											<div class="img-con tire-not-exist">
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
 												<img id="idx_L5O" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
 											</div>
-										</div>
-									</div>
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
-										<div class="small-box2">
-											<label for="nowo">L5I</label>
-											<div class="img-con tire-not-exist">
-												<img id="idx_L5I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-4 col-md-4 col-xs-4 no-padding">
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos tire-box-middle-right">
+										<div class="small-box2">
+											<label for="nowo">L5I</label>
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
+												<img id="idx_L5I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-4 col-xs-4 no-padding tire-box-center">
+										<!--<div class="small-box2 col-xs-8 col-xs-offset-2 tire-box-center">-->
 										<div class="small-box2">
 											<label for="nowo">S3</label>
-											<div class="img-con tire-not-exist col-lg-8 col-lg-offset-2 col-md-8 col-xs-11 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-ss-10 no-padding">
+											<div class="col-xs-12 col-lg-3 col-sm-3 img-con tire-not-exist no-padding" style="margin-top:10%;">
 												<div>&nbsp </div>
 												<img src="<?php echo base_url('assets/img/tires.png') ?>" style="max-height:40px;margin-bottom:2%;"/>
 											</div>
-										</div>
-									</div>
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
-										<div class="small-box2">
-											<label for="nowo">R5I</label>
-											<div class="img-con tire-not-exist">
-												<img id="idx_R5I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											<div class="col-xs-12 col-lg-9 col-sm-9 no-padding" style="padding-left:4px;">
+												<div class="col-ss-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-ss-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-ss-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-ss-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-ss-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-ss-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-ss-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-ss-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos tire-box-middle-left">
+										<div class="small-box2">
+											<label for="nowo">R5I</label>
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
+												<img id="idx_R5I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos tire-box-middle-left">
 										<div class="small-box2">
 											<label for="nowo">R5O</label>
-											<div class="img-con tire-not-exist">
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
 												<img id="idx_R5O" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -252,16 +803,68 @@
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
 											<label for="nowo">L6O</label>
-											<div class="img-con tire-not-exist">
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
 												<img id="idx_L6O" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
 											<label for="nowo">L6I</label>
-											<div class="img-con tire-not-exist">
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
 												<img id="idx_L6I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -271,16 +874,68 @@
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
 											<label for="nowo">R6I</label>
-											<div class="img-con tire-not-exist">
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
 												<img id="idx_R6I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
 											<label for="nowo">R6O</label>
-											<div class="img-con tire-not-exist">
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
 												<img id="idx_R6O" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -290,16 +945,68 @@
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
 											<label for="nowo">L7O</label>
-											<div class="img-con tire-not-exist">
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
 												<img id="idx_L7O" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
 											<label for="nowo">L7I</label>
-											<div class="img-con tire-not-exist">
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
 												<img id="idx_L7I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -309,16 +1016,68 @@
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
 											<label for="nowo">R7I</label>
-											<div class="img-con tire-not-exist">
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
 												<img id="idx_R7I" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-2 col-md-2 col-xs-2 no-padding tire-pos">
 										<div class="small-box2">
 											<label for="nowo">R7O</label>
-											<div class="img-con tire-not-exist">
+											<div class="col-xs-12 col-lg-3 col-md-3 img-con tire-not-exist no-padding">
 												<img id="idx_R7O" src="<?php echo base_url('assets/img/tire.png') ?>" style="max-height: 90px;"/>
+											</div>
+											<div class="col-xs-12 col-lg-9 col-md-9 no-padding">
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Tire ID:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Status:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Pressure:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
+												<div class="col-md-5 col-xs-12 no-padding">
+													<label style="text-align:left">Thread Depth:</label>
+												</div>
+												<div class="col-md-7 col-xs-12 no-padding">
+													<input style="padding:1px;" class="form-control" type="text" value="" readonly>
+												</div>
 											</div>
 										</div>
 									</div>

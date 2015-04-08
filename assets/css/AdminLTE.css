@@ -3714,6 +3714,28 @@ input::-webkit-inner-spin-button {
 #formModal .modal-dialog{
 	width:90% !important;
 }
+/*.tire-box-top{
+	border: 1px solid #7c7c7c;
+	border-bottom:0px solid white;
+}
+.tire-box-middle-left{
+	border: 1px solid #7c7c7c;
+	border-bottom:0px solid white;
+}
+.tire-box-middle-right{
+	border: 1px solid #7c7c7c;
+	border-bottom:0px solid white;
+	border-left: 0px solid white;
+}
+.tire-box-center{
+	border: 1px solid #7c7c7c;
+	border-right:0px solid white;
+	border-left: 0px solid white;
+	/*border-bottom: 0px solid white;*/
+}*/
+.tire-box-center .no-padding label{
+	padding-left:4px;
+}
 /*select.form-control-editable {
 /*      border: 0 !important;        /*Removes border*/
 /*      -webkit-appearance: none;        /*Removes default chrome and safari style*/
